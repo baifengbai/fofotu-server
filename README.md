@@ -27,6 +27,8 @@ cd .\02-mic-test\
 python .\receive-audio-from-esp32.py
 ```
 测试方法：
-1/运行以上代码
-2/按下开发板上BOOT按键或火火兔的Chat按键，MIC可录音5秒，同时将
-测试结果：按住ESP32开发板BOOT按键，"01-speaker-test\sayhi.wav"
+
+- 运行以上代码
+- 按下开发板上BOOT按键或火火兔的Chat按键，MIC可录音5秒
+
+测试结果：服务器完成录音并生成录音文件 "chatgpt-huohuotu-server\02-mic-test\record.wav"
